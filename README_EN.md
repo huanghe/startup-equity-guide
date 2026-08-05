@@ -157,6 +157,18 @@ Preserve evidence: keep contract copies, the HR message that calculated your equ
 
 ---
 
+## 📮 Contact
+
+Questions about options and equity, or need a referral to a lawyer who has actually handled equity-incentive cases? Email:
+
+**huanghe2014@gmail.com**
+
+**No promise it will be fast — but you will get a reply.**
+
+> I'm not a lawyer. What I can do is share experience, help you avoid detours, and point you to the right professionals; for your specific case, please consult a licensed attorney. If you are in an active dispute, **please do not email case evidence** — check with your own lawyer first on what to disclose and when.
+
+---
+
 ## License & Contributing
 
 - Text is shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse with attribution, translate, and adapt freely.

@@ -5,7 +5,7 @@
 
 **Before the IPO, can you actually walk away with your equity? A field guide for engineers.**
 
-[中文](./README.md) · [Full essay](./ARTICLE_EN.md) · [Checklist](#-pre-ipo-checklist) · [East vs. West](#-one-table-the-difference-is-the-default) · [Glossary](#-glossary)
+[中文](./README.md) · [Full essay](./ARTICLE_EN.md) · [Zhihu (CN)](https://zhuanlan.zhihu.com/p/2067665131052463319) · [Checklist](#-pre-ipo-checklist) · [East vs. West](#-one-table-the-difference-is-the-default) · [Glossary](#-glossary)
 
 </div>
 

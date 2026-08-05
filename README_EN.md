@@ -165,7 +165,7 @@ Questions about options and equity, or need a referral to a lawyer who has actua
 
 **No promise it will be fast — but you will get a reply.**
 
-> I'm not a lawyer. What I can do is share experience, help you avoid detours, and point you to the right professionals; for your specific case, please consult a licensed attorney. If you are in an active dispute, **please do not email case evidence** — check with your own lawyer first on what to disclose and when.
+> I'm not a lawyer. What I can do is simply share experience and help you avoid detours; for your specific case, please consult a licensed attorney. If you are in an active dispute, **please do not email case evidence** — check with your own lawyer first on what to disclose and when.
 
 ---
 

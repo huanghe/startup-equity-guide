@@ -13,6 +13,12 @@
 
 ---
 
+## TL;DR
+
+**"I have equity" and "I can cash it out" are two completely different things.** Before an IPO, your options usually sit inside a holding vehicle controlled by the founder — **pricing, dilution, and paperwork are all out of your hands**. And an IPO only changes the price of those shares, not whether you can actually get them. This guide uses three publicly reported disputes from 2026 to explain the mechanism, plus four non-negotiables for signing day and a self-check list.
+
+---
+
 ## Why this exists
 
 In July 2026, while Chinese robotics maker Dobot (2432.HK) was pursuing an A-share listing, its former EVP/COO Song Tao went public. His situation boils down to three sentences: **in 2017 the company promised him 3.8% of total equity in a signed agreement; by 2026 the corporate registry showed only 0.64% attributable to him; and even that 0.64% the company sued to reclaim — for RMB 1.39 million, less than 3% of its market value** (Song Tao's account, assembled from the agreement, registry records and court filings; Dobot publicly denies the allegations, and its listing cleared review on July 22). Two more cases surfaced the same season: a former Xiaohongshu employee whose unlawful-termination and equity-loss claims were upheld by courts in Guangzhou with binding effect; and a woman describing herself as 360's first board secretary, who says that seven years after leaving — and five years after the holding vehicle sold out — her incentive equity remains unpaid (360 responded that it supports resolving the dispute through legal channels).

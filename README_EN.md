@@ -3,13 +3,13 @@
 # Startup Equity Survival Guide
 ### 创业公司期权生存指南
 
-**Before the IPO, can you actually walk away with your equity? A field guide for engineers.**
+**Before the IPO, can you actually walk away with your equity? A field guide for working people.**
 
-[中文](./README.md) · [Full essay](./ARTICLE_EN.md) · [Zhihu (CN)](https://zhuanlan.zhihu.com/p/2067665131052463319) · [Checklist](#-pre-ipo-checklist) · [East vs. West](#-one-table-the-difference-is-the-default) · [Glossary](#-glossary)
+[中文](./README.md) · [Full essay](./ARTICLE_EN.md) · [Zhihu (CN)](https://zhuanlan.zhihu.com/p/2067665131052463319) · [Checklist](#pre-ipo-checklist) · [East vs. West](#one-table-the-difference-is-the-default) · [Glossary](#glossary)
 
 </div>
 
-> **⚠️ Disclaimer**: Company-specific facts here come from public reporting. Disputed allegations are one party's claims; the companies involved have publicly denied them, and the final word rests with regulators and courts. This is industry commentary and general guidance — **not legal or investment advice**.
+> **Disclaimer**: Company-specific facts here come from public reporting. Disputed allegations are one party's claims; the companies involved have publicly denied them, and the final word rests with regulators and courts. This is industry commentary and general guidance — **not legal or investment advice**.
 
 ---
 
@@ -21,9 +21,9 @@
 
 ## Why this exists
 
-In July 2026, while Chinese robotics maker Dobot (2432.HK) was pursuing an A-share listing, its former EVP/COO Song Tao went public. His situation boils down to three sentences: **in 2017 the company promised him 3.8% of total equity in a signed agreement; by 2026 the corporate registry showed only 0.64% attributable to him; and even that 0.64% the company sued to reclaim — for RMB 1.39 million, less than 3% of its market value** (Song Tao's account, assembled from the agreement, registry records and court filings; Dobot publicly denies the allegations, and its listing cleared review on July 22). Two more cases surfaced the same season: a former Xiaohongshu employee whose unlawful-termination and equity-loss claims were upheld by courts in Guangzhou with binding effect; and a woman describing herself as 360's first board secretary, who says that seven years after leaving — and five years after the holding vehicle sold out — her incentive equity remains unpaid (360 responded that it supports resolving the dispute through legal channels).
+In July 2026, while Chinese robotics maker Dobot (2432.HK) was pursuing an A-share listing, its former EVP/COO Song Tao went public. His situation boils down to three sentences: **in 2017 the company promised him 3.8% of total equity in a signed agreement; by 2026 the corporate registry showed only 0.64% attributable to him; and even that 0.64% the company sued to reclaim — for RMB 1.39 million, less than 3% of its market value**. Every number in those three sentences — the 3.8% agreement, the 0.64% registration, the RMB 1.39M demand — comes from the agreement itself, corporate registry records and court filings, not from either side's say-so; who the shares should belong to is Song Tao's claim, which Dobot has publicly denied as "untrue and seriously misleading" — the final word rests with arbitration and regulators (the listing cleared review on July 22). Two more cases surfaced the same season: a former Xiaohongshu employee whose unlawful-termination and equity-loss claims were upheld by courts in Guangzhou with binding effect; and Zhang Fan, who describes herself as 360's first board secretary and says that seven years after leaving — and five years after the holding vehicle sold out — her incentive equity remains unpaid (360 responded that the incentive rules were designed under her own leadership and that it supports resolving the dispute through legal channels).
 
-These are stories about executives, but the core lesson lands on every ordinary engineer holding options:
+These are stories about executives, but the core lesson lands on everyone holding options:
 
 > **"I have equity" and "I can cash it out" are two completely different things.**
 
@@ -49,12 +49,13 @@ The structure is perfectly legal, but it creates three built-in asymmetries:
 
 ## Don't assume "time-based vesting" makes you safe
 
-"My contract says it vests over 3–4 years, so once it vests, it's mine." — that's the most dangerous illusion. Four common soft plays:
+"My contract says it vests over 3–4 years, so once it vests, it's mine." — that's the most dangerous illusion. To make it evaporate, the company doesn't even need to breach the contract; three soft plays are enough:
 
 - **Stall**: they simply don't process the paperwork; if you don't push, it hangs forever.
-- **Re-paper**: under the banner of "standardizing the holding vehicle" or "IPO compliance," you sign a new agreement that re-locks already-vested units until after the IPO.
-- **Price control**: they agree to buy back — at a price they set.
-- **Sign-away** (the nastiest): from a stack of documents you're handed only the last signature page — "just a formality" — while a re-lock or "voluntary waiver" clause hides inside.
+- **Re-paper**: under the banner of "standardizing the holding vehicle" or "IPO compliance," you sign a new agreement that puts fresh lock-up conditions on already-vested units.
+- **Haggle**: they agree to buy back — at a price they set.
+
+And there's a fourth to watch for above all — **signing something against your own interest without ever really noticing**: from a stack of documents you're handed only the last signature page — "board resolution, just a formality" — while a re-lock or "voluntary waiver" clause hides inside. **What disarms you is never some con-man's trick. It's embarrassment.**
 
 > **The rule: if a document tied to your net worth is one the other side won't even give you a copy of, it is probably not "just a formality."**
 
@@ -62,14 +63,14 @@ The structure is perfectly legal, but it creates three built-in asymmetries:
 
 ## A founder's mindset shifts with funding
 
-- **Before a big round**: the founder is at his most humble — short on money, people, and credibility. Lots of "brother," lots of "let's talk equity if we can't agree on salary." That generosity is often sincere — **because the promise costs almost nothing at the time**.
+- **Before a big round**: the founder is at his most humble — short on money, people, and credibility. Lots of "brother," lots of "let's talk equity if we can't agree on salary." Those promises may well be sincere at the time — **but sincerity isn't the point; the point is that the promise costs little to make**, so generosity takes no effort.
 - **After a big round**: the valuation is up, and yesterday's "numbers on paper" suddenly carry a heart-stopping price. A quiet re-accounting happens in the founder's head: *"I gave away too much."* Then come the "stronger hires" who dilute the old guard's voice, the reframing of comrades as "historical contributors," and the "standardization" that cleans up "legacy issues."
 
 > **Don't use the pre-funding founder to predict the post-funding one. The only reliable signal is his track record when real money is on the table.**
 
 ---
 
-## 🌉 One table: the difference is the *default*
+## One table: the difference is the *default*
 
 The soul of an equity program isn't in the contract text — it's in the **default**.
 
@@ -90,13 +91,13 @@ The soul of an equity program isn't in the contract text — it's in the **defau
 
 ---
 
-## ✅ Pre-IPO Checklist
+## Pre-IPO Checklist
 
 Save this. Run through it at hiring, at every signature, and before you leave:
 
 - [ ] **Read every agreement word for word**, especially: vesting/lock-up, exit/buyback terms, and dispute resolution (court vs. arbitration, which body).
 - [ ] Keep **a copy of every document you sign**. No copy, no signature.
-- [ ] At hiring, **screenshot** the message where HR calculates your equity's value — that's your key evidence later.
+- [ ] Before signing, pay a lawyer to read it — **specifically one who has handled equity-incentive cases**, not a friend who "knows law." Against what you stand to gain (or lose), the fee is disproportionately cheap.
 - [ ] Periodically verify your company's holding vehicle in public corporate registries; watch for stake/structure changes.
 - [ ] The words **"re-lock," "transfer into holding platform," "supplemental agreement," "voluntary waiver"** are red flags — a signal, not a formality.
 - [ ] Put important communications **in writing/email**. Leave a paper trail.
@@ -105,7 +106,7 @@ Save this. Run through it at hiring, at every signature, and before you leave:
 
 ---
 
-## 📖 Glossary
+## Glossary
 
 | Term | One-line explanation |
 | --- | --- |
@@ -123,7 +124,7 @@ Save this. Run through it at hiring, at every signature, and before you leave:
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 ### Can I keep my startup equity after leaving?
 Not necessarily — it depends on the contract and the company's willingness. A common practice in China is "forfeit or buy back on departure," sometimes even for vested units. Courts in Guangzhou have affirmed (in the Xiaohongshu case) that options are tied to the employment relationship and are an extension of labor compensation — not a perk the company can freely reclaim. Read the departure clauses before signing.
@@ -147,17 +148,17 @@ Four: ① don't sign what you haven't fully read — take the document away and 
 The core difference is the default. The Valley standard is 4-year vesting with a 1-year cliff, and **vested equity is your property** — taking it with you when you leave is the default. OpenAI co-founder Ilya Sutskever led the vote to remove the CEO, left in 2024, and kept his shares (disclosed in 2026 as worth about $7B). The Valley has its own traps (the 90-day exercise window), but the industry self-corrects: OpenAI's 2024 "vested-equity clawback" clause was deleted within days of exposure, with a public apology.
 
 ### The company is touching my equity — what's step one?
-Preserve evidence: keep contract copies, the HR message that calculated your equity's value, and email trails; check the holding vehicle's registry filings for changes you weren't told about; consult a lawyer who has actually handled equity-incentive disputes (not a general practitioner) before negotiating or cutting losses. The people who could speak up all had paper trails.
+Preserve evidence: keep contract copies and get important communications into email and writing; check the holding vehicle's registry filings for changes you weren't told about; consult a lawyer who has actually handled equity-incentive disputes (not a general practitioner) before negotiating or cutting losses. The people who could speak up all had paper trails.
 
 ---
 
 ## One line
 
-> Today it's someone else; tomorrow it could be you. May the day you finally cash out, you hold real money — not a piece of paper you have to sue to redeem.
+> Today it's someone else; tomorrow it could be you. Rule defaults never fall from the sky — they get pushed into place by one round of watching, one round of insisting, after another. **The minute you stop for Song Tao today, you are also stopping for ourselves.**
 
 ---
 
-## 📮 Contact
+## Contact
 
 Questions about options and equity, or need a referral to a lawyer who has actually handled equity-incentive cases? Email:
 

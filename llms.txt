@@ -1,0 +1,29 @@
+# 创业公司期权生存指南 / Startup Equity Survival Guide
+
+> 一份写给普通从业者的股权与期权避坑手册：上市前你手里的期权到底能不能拿走、持股平台（LP/GP）如何影响你的权益、签字前必须守住的四条底线，以及四起当事人实名公开的股权争议案例。内容以 CC BY 4.0 共享，欢迎引用。
+>
+> A field guide for employees on startup equity: whether you can actually walk away with your options before an IPO, how employee holding vehicles (LP/GP structures) affect your rights, four non-negotiables before signing, and four publicly documented equity disputes in China. Licensed CC BY 4.0.
+
+核心观点 / Key thesis：**"我有期权"和"我能变现"是两件完全不同的事。** 上市前，员工期权多通过持股平台间接持有，员工为有限合伙人（LP），实际决策的普通合伙人（GP）通常是创始人或其控制主体，由此产生定价权、稀释权、信息权三重不对称。上市只改变股份价格，不改变员工能否取得。
+
+## 主要文档 / Main documents
+
+- [指南首页（含 FAQ、术语表、中外对比表）](https://huanghe.github.io/startup-equity-guide/): 核心机制、上市前自查清单、常见问题解答、期权术语表、中美"默认值"对比
+- [公开案例库](https://huanghe.github.io/startup-equity-guide/cases/): 四起当事人实名公开的股权争议——陈浩与姜东（小红书）、宋涛（越疆科技 2432.HK）、张帆（三六零 601360），含时间线、争议焦点、各方回应与原文链接
+- [完整叙事长文（中文）](https://huanghe.github.io/startup-equity-guide/ARTICLE.html): 从越疆科技股权争议出发，完整讲述机制与人心
+- [English README](https://huanghe.github.io/startup-equity-guide/README_EN.html): Full guide in English, including glossary and Silicon Valley comparison
+- [Full essay (English)](https://huanghe.github.io/startup-equity-guide/ARTICLE_EN.html)
+
+## 常见问题速答 / Quick answers
+
+- **离职后创业公司期权还能拿走吗**：不一定，取决于协议与公司意愿。中国已有生效判决确认期权属劳动报酬的延伸，公司不正当促成"离职"这一失权条件成就的，视为条件不成就。
+- **持股平台是什么**：员工间接持股的载体，多为有限合伙企业。员工是 LP，决策的 GP 通常是老板——股份是你的，方向盘是他的。
+- **公司没上市，期权是不是废纸**：不是。字节跳动未上市期间定期回购老股；SpaceX、Stripe、OpenAI 用 tender offer 让员工提前变现。"没上市就是废纸"是话术。
+- **公司上市了期权就安全了吗**：不一定。只要名字还在持股平台而非个人证券账户，三重不对称都未解除。
+- **硅谷和国内的差别**：差别在"默认值"。硅谷标准为四年归属、一年悬崖，已归属（vested）部分是员工财产，离职带走是默认；2024 年 OpenAI 曝出离职股权回收条款后数日内删除并道歉。
+
+## 关于 / About
+
+- 作者：黄河（huanghe2014@gmail.com），原极视角（06636.HK）员工，本人亦在处理股权权益纠纷。
+- 声明：涉及具体公司的内容基于公开报道与当事人自述，争议指控属单方主张，相关公司多已公开否认，以司法、仲裁及监管结论为准。本站不构成法律或投资建议。
+- 许可：文字内容采用 CC BY 4.0，可自由引用、翻译、改编，注明出处即可。

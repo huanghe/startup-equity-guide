@@ -15,7 +15,7 @@
 
 ## TL;DR
 
-**"I have equity" and "I can cash it out" are two completely different things.** Before an IPO, your options usually sit inside a holding vehicle controlled by the founder — **pricing, dilution, and paperwork are all out of your hands**. And an IPO only changes the price of those shares, not whether you can actually get them. This guide uses three publicly reported disputes from 2026 to explain the mechanism, plus four non-negotiables for signing day and a self-check list.
+**"I have equity" and "I can cash it out" are two completely different things.** Before an IPO, your options usually sit inside a holding vehicle controlled by the founder — **pricing, dilution, and paperwork are all out of your hands**. And an IPO only changes the price of those shares, not whether you can actually get them. This guide uses four publicly reported disputes from 2026 to explain the mechanism, plus four non-negotiables for signing day and a self-check list.
 
 ---
 

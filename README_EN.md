@@ -31,6 +31,21 @@ This guide explains the mechanism, the warning signs, and how to protect yoursel
 
 ---
 
+## 📂 Case Files
+
+Four equity disputes made public by the people involved, under their real names. **Two have authorized full-text inclusion** in this repo (with court rulings and SEC filings attached):
+
+| Person | Company | In one line | Outcome | Full text |
+| --- | --- | --- | --- | --- |
+| **Chen Hao** | Xiaohongshu | Terminated ~5 months before vesting | ✅ Won ~RMB 850k | [Summary](./cases/) |
+| **Jiang Dong** | Xiaohongshu | Terminated **8 days** before the vesting date; 860k options gone | ❌ Claim dismissed | ✅ [**Full text (CN)**](./cases/jiangdong-xiaohongshu/) |
+| **Song Tao** | Dobot (2432.HK) | Promised 3.8%; 0.64% left nine years later | ⚖️ In arbitration | [Summary](./cases/) |
+| **Zhang Fan** | Qihoo 360 | Wrote the prospectus herself; RMB 26.5M unpaid after 7 years | 📨 Demand letter | ✅ [**Full text (CN)** ①](./cases/zhangfan-360/) [②](./cases/zhangfan-360/part2/) |
+
+**→ [Cross-case analysis (Chinese)](./cases/)** — case files are in Chinese; the analysis compares how the four lost their equity at four completely different stages.
+
+---
+
 ## The core mechanism: you hold a *partnership interest*, not *stock*
 
 Before an IPO, your options usually aren't company stock registered in your name. They sit inside an **employee holding vehicle** (in China, typically a limited partnership; in the US, often an entity or trust). You are a **Limited Partner (LP)**; the **General Partner (GP)** — the one who actually decides things — is often the boss or an entity he controls.

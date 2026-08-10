@@ -18,6 +18,18 @@ The first sentence comes from this agreement — the *Equity Grant Agreement* si
 
 ![Page 1 of the 2017 Equity Grant Agreement (ID and phone numbers redacted)](配图/股权授予协议书P1-手绘红框标注.jpg)
 
+> **What the page says** (translation of the Chinese document above; the red boxes are the author's markings):
+>
+> | Field | Text |
+> | --- | --- |
+> | **Document** | *Equity Grant Agreement* — No. YJ20170603 |
+> | **Party A** | Shenzhen Yuejiang Technology Co., Ltd. · Legal representative: **Liu Peichao** |
+> | **Party B** | **Song Tao** (ID number and phone redacted) |
+> | **Recital** | "As required by the Company's development, Party A intends to bring in Party B as **Executive Vice President / COO**, responsible for the Company's operations and management." |
+> | **Art. 1.1** | "Party A agrees to grant Party B **3.8% of the Company's total share capital** (the 'Granted Shares'), to be delivered in **three tranches**." |
+> | **Art. 1.2** | "If equity dilution occurs during the delivery period, the Granted Shares shall be **diluted pro rata**." |
+> | **Art. 2.1** | First tranche = **40%** of the Granted Shares, "to be delivered within one month of onboarding." |
+
 This one page spells out several things in black and white:
 
 - **The role**: *"As required by the company's development, Party A intends to bring in Party B as **Executive Vice President / COO**, responsible for the company's operations and management"*;
@@ -31,7 +43,7 @@ One term worth clarifying up front: what Song Tao signed was an outright **equit
 
 The second sentence comes from stringing nine years of corporate-registry data into a single line:
 
-![Song Tao's indirect stake in Dobot: how 3.8% became 0.64% (calculated from corporate registry data)](配图/宋涛权益稀释路径-简版.png)
+![Song Tao's indirect stake in Dobot: how 3.8% became 0.64% (derived from corporate registry filings)](配图/dobot-stake-dilution-EN.png)
 
 **Read this line in two segments — they are different in kind.**
 

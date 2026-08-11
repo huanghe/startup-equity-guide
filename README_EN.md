@@ -119,7 +119,11 @@ Save this. Run through it at hiring, at every signature, and before you leave:
 - [ ] Know whether you hold **options vs. RSUs**, whether there's a **service/buyback condition**, and how long your **post-termination exercise window** is.
 - [ ] Spot trouble early: **negotiate early, and cut losses early** if it stalls — hesitation often costs more than the equity itself.
 
-> **One aside, engineer to engineer.** We're trained to trust documents: a contract is written down, so execution should be deterministic. The cases in this repo say otherwise — law is not a compiler; the same facts down different paths produce entirely different outputs. There's an old saying that three people are worth knowing before you need them: a teacher, a doctor, and a lawyer. For engineers, it's especially the lawyer — **get to know one while you still don't need one.** Either you avoid the pit entirely, or you know exactly whom to call when it matters.
+> **One aside, engineer to engineer.** We're trained to trust documents: a contract is written down, so execution should be deterministic. But law is not a compiler.
+>
+> The [case files](./cases/) include two former employees of the same company. One was terminated about **5 months** before vesting and eventually recovered roughly **RMB 850,000**. The other was terminated **8 days** before his vesting date — 860,000 options gone, **every claim dismissed**. The difference wasn't who was treated worse: per the judgments, the one who recovered had first won a separate case establishing the termination itself was unlawful, knocking out the "you left, so you forfeit" premise. **Same facts — which claim you bring first changes everything.**
+>
+> There's an old saying that three people are worth knowing before you need them: a teacher, a doctor, and a lawyer. For engineers, it's especially the lawyer — **get to know one while you still don't need one.** Either you avoid the pit entirely, or you know exactly whom to call when it matters.
 
 ---
 

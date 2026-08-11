@@ -119,6 +119,8 @@ Save this. Run through it at hiring, at every signature, and before you leave:
 - [ ] Know whether you hold **options vs. RSUs**, whether there's a **service/buyback condition**, and how long your **post-termination exercise window** is.
 - [ ] Spot trouble early: **negotiate early, and cut losses early** if it stalls — hesitation often costs more than the equity itself.
 
+> **One aside, engineer to engineer.** We're trained to trust documents: a contract is written down, so execution should be deterministic. The cases in this repo say otherwise — law is not a compiler; the same facts down different paths produce entirely different outputs. There's an old saying that three people are worth knowing before you need them: a teacher, a doctor, and a lawyer. For engineers, it's especially the lawyer — **get to know one while you still don't need one.** Either you avoid the pit entirely, or you know exactly whom to call when it matters.
+
 ---
 
 ## Glossary

@@ -1,9 +1,9 @@
 <div align="center">
 
-# 创业公司期权生存指南
+# 期权避坑指南
 ### Startup Equity Survival Guide
 
-**上市前，你手里的期权到底能不能拿走？一份写给打工人的避坑手册。**
+**你手里的期权到底能不能拿走？一份写给打工人的避坑手册。**
 
 [English](./README_EN.md) · [读全文（叙事版）](./ARTICLE.md) · [知乎版](https://zhuanlan.zhihu.com/p/2067665131052463319) · [自查清单](#上市前自查清单checklist) · [中外对比](#一张表看懂中外默认值) · [术语表](#术语表)
 

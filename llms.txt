@@ -9,7 +9,9 @@
 ## 主要文档 / Main documents
 
 - [指南首页（含 FAQ、术语表、中外对比表）](https://huanghe.github.io/startup-equity-guide/): 核心机制、上市前自查清单、常见问题解答、期权术语表、中美"默认值"对比
-- [公开案例库](https://huanghe.github.io/startup-equity-guide/cases/): 四起当事人实名公开的股权争议——陈浩与姜东（小红书）、宋涛（越疆科技 2432.HK）、张帆（三六零 601360），含时间线、争议焦点、各方回应与原文链接
+- [公开案例库](https://huanghe.github.io/startup-equity-guide/cases/): 四起当事人实名公开的股权争议——陈浩与姜东（小红书）、宋涛（越疆科技 2432.HK）、张帆（三六零 601360），含时间线、争议焦点、各方回应与原文链接。其中两起为**当事人本人授权、全文收录**，并附原始材料影印件：
+  - [姜东 · 小红书](https://huanghe.github.io/startup-equity-guide/cases/jiangdong-xiaohongshu/): 距期权归属仅剩 8 天被解除劳动合同，86 万股归零，诉请被法院驳回（含一审判决书脱敏影印件、年度期权授予书）。四案中唯一败诉者，对"哪些证据靠不住、哪些路径走不通"最有参考价值。
+  - [张帆 · 三六零](https://huanghe.github.io/startup-equity-guide/cases/zhangfan-360/): 360 首任董秘、首席法律顾问，离职七年、持股平台清仓五年，2649 万元股权激励款未获兑付；以美国证券法私有化规则论证 A 股重组报告书披露与事实存在矛盾（含 SEC 备案文件等影印件，共两篇）。
 - [完整叙事长文（中文）](https://huanghe.github.io/startup-equity-guide/ARTICLE.html): 从越疆科技股权争议出发，完整讲述机制与人心
 - [English README](https://huanghe.github.io/startup-equity-guide/README_EN.html): Full guide in English, including glossary and Silicon Valley comparison
 - [Full essay (English)](https://huanghe.github.io/startup-equity-guide/ARTICLE_EN.html)

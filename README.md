@@ -197,3 +197,12 @@
 
 - 文字内容以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 共享，欢迎转载注明来源、翻译、改编。
 - 欢迎提 Issue / PR 补充：更多公司的期权处理案例、各国 vesting 规则、可查证的公开事实。**请只提交有公开信源的内容，不接受未经证实的指名指控。**
+
+
+---
+
+## 思维导图 | Mind Map
+
+[![思维导图预览](mindmap/preview-zh.png)](https://htmlpreview.github.io/?https://github.com/huanghe/startup-equity-guide/blob/main/mindmap/mindmap-zh.html)
+
+点击图片打开交互版（可折叠 / 缩放 / 拖拽）· [English interactive mind map](https://htmlpreview.github.io/?https://github.com/huanghe/startup-equity-guide/blob/main/mindmap/mindmap-en.html)

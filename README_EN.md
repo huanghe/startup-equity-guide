@@ -195,3 +195,12 @@ Questions about options and equity, or need a referral to a lawyer who has actua
 
 - Text is shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse with attribution, translate, and adapt freely.
 - Issues/PRs welcome: more case studies of how companies handle equity, vesting rules across countries, verifiable public facts. **Submit only content with public sources — no unverified, named accusations.**
+
+
+---
+
+## Mind Map
+
+[![Mind map preview](mindmap/preview-en.png)](https://htmlpreview.github.io/?https://github.com/huanghe/startup-equity-guide/blob/main/mindmap/mindmap-en.html)
+
+Click the image for the interactive version (collapsible / zoomable / draggable) · [中文交互版思维导图](https://htmlpreview.github.io/?https://github.com/huanghe/startup-equity-guide/blob/main/mindmap/mindmap-zh.html)

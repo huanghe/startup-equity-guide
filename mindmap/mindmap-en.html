@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Employee Equity: From Promise to Payout (Mind Map)</title>
+<style>
+  :root { --ink:#1a1d21; --ink2:#4a4f57; --muted:#8a8f98; --surface:#fcfcfb; --line:#d8d6d2; }
+  html,body { margin:0; height:100%; background:var(--surface);
+    font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei","Segoe UI",sans-serif; }
+  #app { position:fixed; inset:0; overflow:hidden; cursor:grab; }
+  #app.panning { cursor:grabbing; }
+  svg { width:100%; height:100%; display:block; }
+  .toolbar { position:fixed; top:14px; right:14px; display:flex; gap:8px; z-index:10; }
+  .toolbar button { border:1px solid var(--line); background:#fff; color:var(--ink2);
+    border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; }
+  .toolbar button:hover { border-color:#b9b6b0; color:var(--ink); }
+  .footer { position:fixed; left:0; right:0; bottom:0; padding:8px 16px; text-align:center;
+    font-size:12px; color:var(--muted); background:linear-gradient(transparent,var(--surface) 40%); pointer-events:none; }
+  .node-label { user-select:none; }
+</style>
+</head>
+<body>
+<div id="app"><svg id="svg"></svg></div>
+<div class="toolbar">
+  <button id="btn-expand">Expand all</button>
+  <button id="btn-collapse">Collapse all</button>
+  <button id="btn-fit">Fit</button>
+</div>
+<div class="footer">All case material comes from public sources and the parties&#x27; own statements; the company has publicly denied the allegations. Outcomes rest with arbitration and regulators. · Click branches to fold/unfold, scroll to zoom, drag to pan</div>
+<script>
+const DATA = {"name": ["Employee Equity", "From Promise to Payout"], "children": [{"name": "1 · The case: Dobot equity dispute", "color": "#C4432B", "children": [{"name": "2017: 3.8% of total equity promised in writing"}, {"name": "2017–2022: normal dilution to 2.44% via funding"}, {"name": "Dec 2022: platform transfer, 2.44% → 0.79% in a day"}, {"name": "2026: 0.64% left on the registry"}, {"name": "Sued to hand it back for ¥1.39M (<3% of value)"}, {"name": "Merits pending arbitration & regulators"}]}, {"name": "2 · Not an isolated case", "color": "#C4432B", "children": [{"name": "Chen Hao: court ruled options are deferred pay"}, {"name": "Zhang Fan: ex-360 board secretary, unpaid 7 years (her account)"}, {"name": "Even the strongest insiders had to go public"}, {"name": "The system, not the person, is the problem"}]}, {"name": "3 · Three asymmetries of holding platforms", "color": "#2B6CB0", "children": [{"name": "You are the LP; the GP (often the boss) decides"}, {"name": "Your shares, his steering wheel"}, {"name": "Pricing: the company commissions the valuation"}, {"name": "Dilution: company level plus platform level"}, {"name": "Information: paperwork on the company's terms"}]}, {"name": "4 · Riskiest belief: “vested when it matures”", "color": "#2B6CB0", "children": [{"name": "Soft plays: stall / re-paper / lowball"}, {"name": "Beware the signature-page-only “formality”"}, {"name": "Rules: read the full document before signing"}, {"name": "Rules: real dates, keep a copy of everything"}]}, {"name": "5 · How founders change", "color": "#2B6CB0", "children": [{"name": "Before funding: promises are cheap"}, {"name": "After funding: the ledger flips — “gave too much”"}, {"name": "Playbook: new hires, re-ranking, “legacy issues”"}, {"name": "Don't predict the funded boss from the broke one"}]}, {"name": "6 · What good looks like", "color": "#2F855A", "children": [{"name": "Wang Shi: scatter wealth, gather people"}, {"name": "Ren Zhengfei: decades of honored payouts"}, {"name": "CXMT: founder gave half his plan to employees"}, {"name": "ByteDance buybacks / MiniMax / Pang Dong Lai"}]}, {"name": "7 · Silicon Valley defaults", "color": "#2F855A", "children": [{"name": "Vested equity is vested equity, full stop"}, {"name": "Fast correction: OpenAI clause gone in days"}, {"name": "Tender offers: liquidity before any IPO"}]}, {"name": "8 · Self-check list", "color": "#6B46C1", "children": [{"name": "Hire an equity lawyer before you sign"}, {"name": "Watch the platform on registry databases"}, {"name": "Alarm words: re-lockup, supplement, waiver"}, {"name": "Keep records; negotiate early, exit early"}]}, {"name": "9 · The bigger picture", "color": "#6B46C1", "children": [{"name": "Equity is a social contract for value-creators"}, {"name": "Every broken promise taxes everyone's trust"}, {"name": "A minute for Song Tao is a minute for us all"}]}]};
+const svg = document.getElementById('svg');
+const app = document.getElementById('app');
+const NS = 'http://www.w3.org/2000/svg';
+const LEAF_H = 34, L1_H = 52, GAP_L1 = 18, COL_GAP = 56, PAD = 40;
+const canvas = document.createElement('canvas'); const mctx = canvas.getContext('2d');
+function tw(text, font) { mctx.font = font; return mctx.measureText(text).width; }
+let uid = 0;
+function prep(n, depth, color) {
+  n.id = uid++; n.depth = depth; n.color = color || n.color;
+  n.collapsed = false;
+  (n.children||[]).forEach(c => prep(c, depth+1, n.color));
+}
+prep(DATA, 0, null);
+let view = {x:0, y:0, k:1};
+function el(name, attrs, parent) {
+  const e = document.createElementNS(NS, name);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  (parent||svg).appendChild(e); return e;
+}
+function layout() {
+  // returns per-node {x,y,w,h}; horizontal tree to the right
+  const rootFont = '800 24px sans-serif', l1Font = '700 17px sans-serif', leafFont = '15px sans-serif';
+  function size(n) {
+    if (n.depth === 0) { n.w = Math.max(tw(n.name[0], rootFont), tw(n.name[1]||'', rootFont)) + 56; n.h = 86; }
+    else if (n.depth === 1) { n.w = tw(n.name, l1Font) + 46; n.h = 36; }
+    else { n.w = tw(n.name, leafFont) + 26; n.h = LEAF_H; }
+    if (!n.collapsed) (n.children||[]).forEach(size);
+  }
+  size(DATA);
+  function blockH(n) {
+    if (n.collapsed || !(n.children||[]).length) return n.depth === 1 ? L1_H : LEAF_H;
+    const ch = n.children.map(blockH);
+    const gap = n.depth === 0 ? GAP_L1 : 0;
+    return Math.max(n.depth === 1 ? L1_H : LEAF_H, ch.reduce((a,b)=>a+b,0) + gap*(ch.length-1));
+  }
+  function place(n, x, top) {
+    const h = blockH(n);
+    n.x = x; n.y = top + h/2;
+    if (!n.collapsed && (n.children||[]).length) {
+      const gap = n.depth === 0 ? GAP_L1 : 0;
+      let ty = top;
+      const chH = n.children.map(blockH);
+      const total = chH.reduce((a,b)=>a+b,0) + gap*(n.children.length-1);
+      ty = top + (h-total)/2;
+      n.children.forEach((c,i) => { place(c, x + n.w + COL_GAP, ty); ty += chH[i] + gap; });
+    }
+    return h;
+  }
+  place(DATA, PAD, PAD);
+}
+function render() {
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+  layout();
+  const g = el('g', {transform:`translate(${view.x},${view.y}) scale(${view.k})`});
+  function links(n) {
+    if (n.collapsed) return;
+    (n.children||[]).forEach(c => {
+      const x0 = n.x + n.w, y0 = n.y, x1 = c.x, y1 = c.y;
+      el('path', {d:`M ${x0} ${y0} C ${(x0+x1)/2} ${y0}, ${(x0+x1)/2} ${y1}, ${x1} ${y1}`,
+        fill:'none', stroke:c.color||'#999', 'stroke-width': c.depth===1?2.5:1.6,
+        'stroke-linecap':'round', opacity:0.8}, g);
+      links(c);
+    });
+  }
+  function nodes(n) {
+    const grp = el('g', {'data-id':n.id, cursor:(n.children||[]).length?'pointer':'default'}, g);
+    if (n.depth === 0) {
+      el('rect', {x:n.x, y:n.y-43, width:n.w, height:86, rx:14, fill:'#1a1d21'}, grp);
+      const t1 = el('text', {x:n.x+n.w/2, y:n.y-8, 'text-anchor':'middle', fill:'#fff',
+        'font-size':24, 'font-weight':800, class:'node-label'}, grp); t1.textContent = n.name[0];
+      const t2 = el('text', {x:n.x+n.w/2, y:n.y+26, 'text-anchor':'middle', fill:'#c9ccd2',
+        'font-size':18, 'font-weight':600, class:'node-label'}, grp); t2.textContent = n.name[1]||'';
+    } else if (n.depth === 1) {
+      el('rect', {x:n.x, y:n.y-18, width:n.w, height:36, rx:8, fill:n.color}, grp);
+      const t = el('text', {x:n.x+17, y:n.y+6, fill:'#fff', 'font-size':17, 'font-weight':700, class:'node-label'}, grp);
+      t.textContent = n.name;
+    } else {
+      el('circle', {cx:n.x+6, cy:n.y, r:3.4, fill:n.color}, grp);
+      const t = el('text', {x:n.x+17, y:n.y+5, fill:'#4a4f57', 'font-size':15, class:'node-label'}, grp);
+      t.textContent = n.name;
+      el('line', {x1:n.x+14, y1:n.y+11, x2:n.x+n.w-8, y2:n.y+11, stroke:'#e4e2de', 'stroke-width':1.4}, grp);
+    }
+    if ((n.children||[]).length) {
+      const bx = n.x + n.w + 2, by = n.y;
+      el('circle', {cx:bx+8, cy:by, r:8, fill:'#fff', stroke:n.color||'#666', 'stroke-width':1.5}, grp);
+      const t = el('text', {x:bx+8, y:by+3.5, 'text-anchor':'middle', 'font-size':10.5,
+        fill:n.color||'#666', 'font-weight':700, class:'node-label'}, grp);
+      t.textContent = n.collapsed ? String(countLeaves(n)) : '−';
+      grp.addEventListener('click', ev => { ev.stopPropagation(); n.collapsed = !n.collapsed; render(); });
+    }
+    if (!n.collapsed) (n.children||[]).forEach(nodes);
+  }
+  function countLeaves(n){ return (n.children||[]).length; }
+  links(DATA); nodes(DATA);
+}
+function bbox() {
+  let minX=1e9,minY=1e9,maxX=-1e9,maxY=-1e9;
+  (function walk(n){ minX=Math.min(minX,n.x); minY=Math.min(minY,n.y-n.h/2);
+    maxX=Math.max(maxX,n.x+n.w); maxY=Math.max(maxY,n.y+n.h/2);
+    if(!n.collapsed)(n.children||[]).forEach(walk); })(DATA);
+  return {minX,minY,maxX,maxY};
+}
+function fit() {
+  layout();
+  const b = bbox(), W = app.clientWidth, H = app.clientHeight - 40;
+  const k = Math.min(1.4, Math.min(W/(b.maxX-b.minX+80), H/(b.maxY-b.minY+80)));
+  view.k = k;
+  view.x = (W - (b.maxX-b.minX)*k)/2 - b.minX*k;
+  view.y = (H - (b.maxY-b.minY)*k)/2 - b.minY*k + 10;
+  render();
+}
+function setAll(collapsed) {
+  (function walk(n){ if(n.depth>=1) n.collapsed = collapsed; (n.children||[]).forEach(walk); })(DATA);
+  if (collapsed) DATA.collapsed = false;
+  fit();
+}
+document.getElementById('btn-expand').onclick = () => setAll(false);
+document.getElementById('btn-collapse').onclick = () => setAll(true);
+document.getElementById('btn-fit').onclick = fit;
+let drag = null;
+app.addEventListener('mousedown', e => { drag = {x:e.clientX, y:e.clientY, vx:view.x, vy:view.y}; app.classList.add('panning'); });
+window.addEventListener('mousemove', e => { if(!drag) return;
+  view.x = drag.vx + e.clientX - drag.x; view.y = drag.vy + e.clientY - drag.y; render(); });
+window.addEventListener('mouseup', () => { drag = null; app.classList.remove('panning'); });
+app.addEventListener('wheel', e => { e.preventDefault();
+  const f = e.deltaY < 0 ? 1.12 : 1/1.12;
+  const nx = e.clientX - (e.clientX - view.x) * f, ny = e.clientY - (e.clientY - view.y) * f;
+  view.k *= f; view.x = nx; view.y = ny; render(); }, {passive:false});
+window.addEventListener('resize', fit);
+fit();
+</script>
+</body>
+</html>

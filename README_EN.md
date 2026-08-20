@@ -7,6 +7,8 @@
 
 [中文](./README.md) · [Full essay](./ARTICLE_EN.md) · [Zhihu (CN)](https://zhuanlan.zhihu.com/p/2067665131052463319) · [Checklist](#pre-ipo-checklist) · [East vs. West](#one-table-the-difference-is-the-default) · [Glossary](#glossary)
 
+**[💡 Why you need a lawyer](./why-a-lawyer_EN.md)** · **[📖 Finding one: the handbook](./find-a-lawyer.md) (CN)** · **[📊 Judgment data research](./research/) (CN)**
+
 </div>
 
 > **Disclaimer**: Company-specific facts here come from public reporting. Disputed allegations are one party's claims; the companies involved have publicly denied them, and the final word rests with regulators and courts. This is industry commentary and general guidance — **not legal or investment advice**.
@@ -43,6 +45,16 @@ Four equity disputes made public by the people involved, under their real names.
 | **Zhang Fan** | Qihoo 360 | Wrote the prospectus herself; RMB 26.5M unpaid after 7 years | 📨 Demand letter | ✅ [**Full text (CN)** ①](./cases/zhangfan-360/) [②](./cases/zhangfan-360/part2/) |
 
 **→ [Cross-case analysis (Chinese)](./cases/)** — case files are in Chinese; the analysis compares how the four lost their equity at four completely different stages.
+
+---
+
+## 📖 After you realise something's wrong: finding a lawyer
+
+Understanding the mechanism solves half the problem. The other half is that when it's time to actually enforce anything, most people get stuck in the same place — **every lawyer says he can handle it, and you genuinely can't tell.**
+
+**→ [After 35, we need to know a lawyer](./why-a-lawyer_EN.md)** — why this shouldn't wait until something has gone wrong. Lawyers specialise the way doctors do; that lesson cost me most of a year.
+
+**→ [The Practical Handbook for Finding a Lawyer](./find-a-lawyer.md)** *(Chinese only)* — seven steps, all of them things you can actually do: the real trade-offs of six sourcing channels, checking whether the person is a licensed lawyer at all, a ten-step due-diligence method using the national judgments database, the four groups of questions to ask in the interview, converting quotes into a comparable total cost, why the most expensive clause in an engagement letter is the exit clause, and what order to do things in if you have to switch.
 
 ---
 

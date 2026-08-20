@@ -1,4 +1,4 @@
-# Today It's Song Tao, Tomorrow It Could Be You — What the Dobot equity dispute says about the options in your own pocket
+# How employee equity works in China: the mechanism, and four public disputes
 
 *[Author's note] From the day you sign a piece of paper to the day a long working relationship ends, cashing in equity is usually far more complicated than we imagine. What follows walks through several equity disputes that recently became public, all based on public sources and the parties' own statements. I'm not here to hand down a legal verdict — I'm here to offer a clear-eyed field guide for everyone who is holding options right now, or about to sign an exit agreement.*
 
